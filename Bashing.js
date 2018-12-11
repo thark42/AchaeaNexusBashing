@@ -505,7 +505,7 @@ var keneanung = (function (keneanung) {
             });
             
             $("<span></span>").text("Updates by ").appendTo(content);
-            $("<img src='https://i.imgur.com/4umFJB2.png' style='max-width: 1.5em;vertical-align: middle;' />".appendTo(content);
+            $("<img src='https://i.imgur.com/4umFJB2.png' style='max-width: 1.5em;vertical-align: middle;' />").appendTo(content);
             $("<span style='color: #a39d5b;'></span>").text("PYTHAGORAS").appendTo(content);
             $("<br /><br />").appendTo(content);
            
