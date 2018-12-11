@@ -508,11 +508,7 @@ var keneanung = (function (keneanung) {
             $("<img src='https://i.imgur.com/4umFJB2.png' style='max-width: 1.5em;vertical-align: middle;' />".appendTo(content);
             $("<span style='color: #a39d5b;'></span>").text("PYTHAGORAS").appendTo(content);
             $("<br /><br />").appendTo(content);
-            
-            $("<span style='color:#008080;'></span>").text("Ported to Nexus by ").appendTo(content);
-            $("<img src='https://i.imgur.com/4umFJB2.png'>".appendTo(content);
-            $("<span style='color:#008080;'></span>").text("PYTHAGORAS").appendTo(content);
-            $("<br /><br />").appendTo(content);
+           
             
             
             var vals = ["on", "off"];
