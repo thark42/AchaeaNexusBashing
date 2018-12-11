@@ -90,11 +90,9 @@ var keneanung = (function (keneanung) {
                 settings_window.set_system_vals();
                 settings_window.system_changed = false;
                 client.system_changed = false;
-                gmcp_save_system();
+                client.gmcp_save_system();
             } else {
-                kecho("##yellow##No settings window open. Please open it " +
-                "(cogwheels lower right side) and click on 'Save " +
-                "Client Settings' to keep your config.");
+                kecho("##yellow##New settings will autosave in Nexus after 90 seconds.");
             }
         };
 
