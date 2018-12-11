@@ -699,7 +699,7 @@ var keneanung = (function (keneanung) {
         
         if(!buttonsDefined){
             buttons_count = buttons_count + 2;
-            bottom_button_set(buttons_count - 1, "", "keneanung.bashing.attackButton()", "Start attacking", false);
+            bottom_button_set(buttons_count - 1, "", "keneanung.bashing.attackButton()", "Bash", false);
             bottom_button_set(buttons_count, "", "keneanung.bashing.flee()", "Flee", false);
         }
 
