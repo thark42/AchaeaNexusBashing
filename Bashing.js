@@ -4,8 +4,8 @@ var keneanung = (function (keneanung) {
 
         var config = {
             enabled: true,
-            warning: 500,
-            fleeing: 300,
+            warning: 1200,
+            fleeing: 1000,
             autoflee: true,
             autoraze: false,
             razecommand: "none",
