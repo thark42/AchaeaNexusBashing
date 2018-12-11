@@ -503,6 +503,18 @@ var keneanung = (function (keneanung) {
                 class: "bashingSelect ui-state-default ui-corner-all ui-widget",
                 style: "padding-top: 0px; padding-bottom: 0px;"
             });
+            
+            $("<span></span>").text("Updates by ").appendTo(content);
+            $("<img src='https://i.imgur.com/4umFJB2.png' style='max-width: 1.5em;vertical-align: middle;' />".appendTo(content);
+            $("<span style='color: #a39d5b;'></span>").text("PYTHAGORAS").appendTo(content);
+            $("<br /><br />").appendTo(content);
+            
+            $("<span style='color:#008080;'></span>").text("Ported to Nexus by ").appendTo(content);
+            $("<img src='https://i.imgur.com/4umFJB2.png'>".appendTo(content);
+            $("<span style='color:#008080;'></span>").text("PYTHAGORAS").appendTo(content);
+            $("<br /><br />").appendTo(content);
+            
+            
             var vals = ["on", "off"];
             var i, opt;
             for (i = 0; i < vals.length; i++) {
