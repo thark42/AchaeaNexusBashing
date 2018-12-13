@@ -661,7 +661,7 @@ var keneanung = (function (keneanung) {
 
             var trash = $('<fieldset class="ui-widget ui-state-default ui-corner-all">');
             trash.append($("<legend>Trash</legend>"));
-            trash.append($('<ul id="keneanung-bashing-trash" class="ui-widget ui-state-default ui-corner-all" style="list-style-type: none; padding:0; margin:0;"></ul>')
+            trash.append($('<ul id="keneanung-bashing-trash" class="ui-widget ui-state-default ui-corner-all" style="list-style-type: none; padding:10px; margin:0;"></ul>')
                 .sortable({
                     stop: updatePrios,
                     connectWith: "#keneanung-bashing-sort"
