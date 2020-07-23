@@ -207,6 +207,7 @@ var keneanung = (function (keneanung) {
                     + targetList[i].name + "</span>");
             }
             console.log(targetList);
+            kecho("Engaging!");
             attackOn();
         };
 
